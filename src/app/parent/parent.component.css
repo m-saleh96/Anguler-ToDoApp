@@ -1,0 +1,8 @@
+.container{
+    border: 3px red solid;
+    height: 90vh;
+    margin-top:2rem;
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,10 @@
+<div class="container">
+<app-child-form (emitFromChild)="reciveFromChild($event)"></app-child-form>
+
+<div class="m-5">
+    <ul *ngFor="let job of jobs; let i = index">
+        <app-child-list [job]="job" [i]="i"></app-child-list>
+    </ul>
+</div>
+
+</div>

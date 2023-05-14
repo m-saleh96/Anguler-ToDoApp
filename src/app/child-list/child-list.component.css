@@ -1,0 +1,7 @@
+.container{
+    height: 550px;
+    background-color: rgb(201, 197, 197);
+}
+.sline{
+    text-decoration: line-through;
+}
